@@ -11,6 +11,8 @@ const translate = (word) => {
     return word.slice(index) + word.slice(0, index) + "ay";
   }
 };
+
+//my original code
 //     word[0] === "a" ||
 //     word[0] === "e" ||
 //     word[0] === "i" ||
@@ -26,3 +28,6 @@ const translate = (word) => {
 // const lowerCase = (word) => word.toLowerCase();
 
 module.exports = translate;
+
+// word = "Chamber"
+// ["c", "h", "a", "m", "b", "e", "r"]
